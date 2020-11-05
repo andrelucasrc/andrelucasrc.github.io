@@ -1,0 +1,265 @@
+@font-face {
+    font-family: 'uni_05_53regular';
+    src: url('../fonts/uni0553-webfont-webfont.woff2') format('woff2'),
+         url('../fonts/uni0553-webfont-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    margin: 0px;
+    margin-top: 100px;
+    text-align: center;
+    color: #111d5e;
+    background-color: #ffbd69;
+    font-family: 'uni_05_53regular';
+    font-weight: normal;
+    font-size: 1.5em;
+}
+
+hr{
+    color: #db6400;
+    border: none;
+    border-top-style: dashed;
+    border-width: 5px;
+    width: 20%;
+    clear: both;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+h1{
+    font-size: 3.5rem;
+    margin: 0px;
+    color: #c70039;
+}
+
+h2{
+    font-size: 2.5rem;
+    color: #f37121;
+}
+
+a{
+    color: #c70039;
+    text-decoration: none;
+    padding: 20px 20px 0 20px;
+}
+
+span{
+    text-decoration: underline;
+}
+
+.header{
+    background-color: white;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    font-weight: normal;
+}
+
+.jooj-img{
+    width: 50%;
+    float: right;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.projects-row-left{
+    text-align: left;
+}
+
+.projects-row-right{
+    text-align: right;
+}
+
+.right-float{
+    width: 30%;
+    float: right;
+    margin-left: 30px;
+}
+
+.left-float{
+    width: 30%;
+    float: left;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+.object-viewer{
+    width: 50%;
+    float: left;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+.MainLogo{
+    display: inline-block;
+    position: absolute;
+    margin-top: 30px;
+    left: 10px;
+}
+
+.projects{
+    text-align: justify;
+}
+
+.SubMenu{
+    position: absolute;
+    display: inline-block;
+    right: 25%;
+    top: 30px;
+}
+
+.header-section{
+    display: inline;
+    margin-left: 20%;
+}
+
+.justified-content{
+    text-align: justify;
+}
+
+.centered-content{
+    text-align: center;
+}
+
+.text-ref{
+    padding: 0;
+}
+
+.SubMenu-atribute{
+    text-align: center;
+    display: inline;
+    padding: 10px 20px;
+    background-color: white;
+    border-style: solid;
+    border-color: #111d5e;
+}
+
+.SubMenu-atribute:hover{
+    background-color: #ffbd69;
+}
+
+
+.hContact{
+    display: inline;
+    position: absolute;
+    right: 20px;
+    top: 30px;
+}
+
+.top-h1{
+    padding-top: 10%;
+    font-size: 5.625rem;
+    line-height: 2;
+    color: #51adcf;
+    font-family: 'uni_05_53regular'
+}
+
+.top-text{
+    margin: 0;
+    padding: 0;
+    font-size: 2.5rem;
+    font-weight: normal;
+    color: #111d5e;
+    font-family: 'uni_05_53regular'
+    
+}
+
+.top-container{
+    background-color: #aae2f3;
+    position: relative;
+    padding-bottom: 170px;
+    width: 100%;
+}
+
+.middle-container{
+    width: 70%;
+    margin: 100px auto;
+}
+
+.bottom-container{
+    width: 100%;
+}
+
+.skill-row{
+    text-align: left;
+    line-height: 2;
+    
+}
+
+.programming-image{
+    width: 30%;
+    float: left;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+.pixel-image{
+    width: 40%;
+    float: right;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.top-cloud{
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    right: 20%;
+    width: 20%;
+}
+
+.bottom-cloud{
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    width: 20%;
+}
+
+.middle-mountain{
+    margin: 0;
+    padding: 0;
+    padding-top: 2.5%;
+    width: 70%;
+}
+
+.personal-informations{
+    color: #ffbd69;
+    background-color: #f37121;
+    padding: 2rem 0 0.2rem 0;
+    margin: 0;
+}
+
+.social-medias{
+    text-decoration: none;
+}
+
+.informations{
+    padding-top: 10px;
+}
+
+.eu-pixel{
+    border-radius: 100%;
+    margin-top: 0;
+}
+
+.button{
+    padding: 10px;
+    background-color: white;
+    border-color: #111d5e;
+    border-style: solid;
+    font-size: 1em;
+}
+
+.button:hover{
+    background-color: #aae2f3;
+}
+
+.get-it{
+    margin: 20px auto 30px;
+    margin-bottom: 30px;
+    width: 60%;
+}
